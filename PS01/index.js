@@ -54,7 +54,11 @@ function updateData(dataPoints) {
     return d.r;
 
   })
+  .attr('fill', function(d){
 
+    return d.fill;
+
+  })
 };
 
 function buttonClicked(){
@@ -84,3 +88,40 @@ updateData(data2016);
 window.setInterval(function(){
   buttonClicked()
 }, 3000)
+
+svg.append('text')
+  .attr('x', 200)
+  .attr('y', 0)
+  .attr('font-size', 24)
+  .text('Lebron James vs Steph Curry')
+
+svg.append('text')
+    .attr('x', 130)
+    .attr('y', 450)
+    .attr('font-size', 16)
+    .text(' < 8ft')
+
+svg.append('text')
+        .attr('x', 300)
+        .attr('y', 450)
+        .attr('font-size', 16)
+        .text('8-16ft')
+
+svg.append('text')
+            .attr('x', 450)
+            .attr('y', 450)
+            .attr('font-size', 16)
+            .text('16-24ft')
+
+svg.append('text')
+                        .attr('x', 580)
+                        .attr('y', 450)
+                        .attr('font-size', 16)
+                        .text('24ft+')
+
+svg.append('text')
+      .attr('transform', 'rotate(270)')
+      .attr('x', -100)
+      .attr('y', -50)
+      .attr('font-size', 16)
+      .text('Usage %')

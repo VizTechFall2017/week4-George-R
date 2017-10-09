@@ -1,9 +1,9 @@
-﻿year,x,y,r
-James, 8, 51.75, 40
-James, 16, 12.66, 10
-James, 24, 10.2, 10
-James, 25, 25.32, 25
-Curry, 8, 26.98, 25
-Curry, 16, 6.8, 10
-Curry, 24, 11.58, 10
-Curry, 25, 53.26, 40
+﻿year,x,y,r,fill
+James, 8, 51.75, 40, darkred
+James, 16, 12.66, 10, darkred
+James, 24, 10.2, 10, darkred
+James, 30, 25.32, 25, darkred
+Curry, 8, 26.98, 25, gold
+Curry, 16, 6.8, 10, gold
+Curry, 24, 11.58, 10, gold
+Curry, 30, 53.26, 40, gold
